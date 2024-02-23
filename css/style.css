@@ -7,8 +7,6 @@ body {
   text-align: center;
 }
 div img {
-  display: flex;
-  justify-content: center;
   margin-top: 20px;
   width: calc(50% + 200px);
   height: calc(50% + 100px);
