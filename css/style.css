@@ -1,0 +1,18 @@
+:root {
+  --background-color: rgb(252, 215, 221);
+}
+body {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  margin-top: 20px;
+  width: calc(50% + 200px);
+  height: calc(50% + 100px);
+}
+.back {
+  background-color: var(--background-color);
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
