@@ -1,15 +1,25 @@
 :root {
   --background-color: rgb(252, 215, 221);
 }
+* {
+  text-align: center;
+  word-wrap: break-word;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: visible;
+}
 body {
   background-color: antiquewhite;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
 }
-div img {
+a {
+  margin: 10px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+img {
   margin-top: 20px;
-  width: calc(50% + 200px);
-  height: calc(50% + 100px);
+  width: 90%;
+  height: 70%;
 }
 .back {
   background-color: var(--background-color);
